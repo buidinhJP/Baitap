@@ -1,0 +1,39 @@
+.card-content {
+  text-align: center;
+}
+.card-box {
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: aqua;
+}
+.card-tit {
+  font-size: 24px;
+}
+.card-sharedhost {
+  color: blue;
+  font-weight: normal;
+}
+.card-endtit {
+  font-style: italic;
+}
+.card-viewplan {
+  box-sizing: border-box;
+  border: 1px solid;
+  padding: 5px;
+  background-color: black;
+}
+.card-link-viewplan {
+  text-decoration: none;
+  color: aliceblue;
+}
+.card-allfeature {
+  box-sizing: border-box;
+  border: 1px solid;
+  padding: 5px;
+  background-color: black;
+}
+.card-link-allfeature {
+  text-decoration: none;
+  color: aliceblue;
+}
