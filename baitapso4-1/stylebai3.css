@@ -1,0 +1,18 @@
+.background {
+  width: 500px;
+  height: 500px;
+  background-image: url(https://vi.wappuri.com/wp-content/uploads/2019/02/cover-Ng%E1%BA%AFm-hoa-anh-%C4%91%C3%A0o-t%E1%BA%A1i-v%C3%B9ng-th%E1%BB%A7-%C4%91%C3%B4-Tokyo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.tittle {
+  width: 500px;
+  height: 50px;
+  background-color: rgba(127, 255, 212, 0.462);
+  text-align: center;
+}
+h1 {
+    line-height: 1.5;
+  color: white;
+}
