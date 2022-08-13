@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.iconleft {
+  display: flex;
+}
+.iconmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  background-color: blue;
+  margin-right: 20px;
+}
+.f {
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  margin-top: 15px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(219, 212, 212, 0.307);
+}
+.mid {
+  margin-left: 150px;
+
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.iconright {
+  display: flex;
+  width: 200px;
+
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(31, 28, 28, 0.103);
+}
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(31, 28, 28, 0.103);
+}
+.notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(31, 28, 28, 0.103);
+}
