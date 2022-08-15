@@ -1,0 +1,77 @@
+.card_container {
+  width: 100%;
+  height: 1300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card {
+  position: relative;
+
+  width: 400px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card_img {
+  width: 400px;
+  height: 425px;
+
+  border-radius: 25px 25px 0 0;
+}
+.card_avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: white;
+  transform: translateY(100%);
+  transition: 0.2s ease-in-out;
+  border-radius: 25px;
+}
+
+.card:hover .overlay {
+  transform: translateY(0%);
+}
+.header {
+  border-radius: 25px 0 0 0;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  background-color: white;
+  gap: 30px;
+  padding: 0 0 0 30px;
+  transform: translateY(-100%);
+  transition: 0.2s ease-in-out;
+}
+.card:hover .header {
+  transform: translateY(0);
+}
+.comment {
+  background-color: white;
+
+  text-align: justify;
+  margin: 0px;
+  padding: 0 30px 30px 30px;
+  overflow: hidden;
+}
+.card_arc {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 100%;
+  right: 0px;
+  z-index: 1;
+}
+.card_arc path {
+  fill: white;
+  d: path("M40 80 c 22 0 40 -22 40 -40 v 40 Z");
+}
