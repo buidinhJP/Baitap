@@ -1,0 +1,103 @@
+.container {
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.leftcard {
+  width: 300px;
+  height: 400px;
+
+  background-image: url("productbg.png");
+}
+.productimg-1 {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.img {
+  display: flex;
+  justify-content: center;
+
+}
+.sofa {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+
+}
+.sofades {
+  text-align: center;
+
+
+  color: grey;
+}
+.midcard {
+  width: 1000px;
+  height: 400px;
+   
+    background-image: url("productbg.png");
+}
+.newproduct {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ghechandaiallcontent {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.ghechandaiimg {
+  width: 200px;
+  height: 300px;
+   
+  margin: 50px 0 50px 0;
+}
+
+.ghechandaitittle {
+  
+}
+.ghechandaicontent {
+    color:grey;
+   
+}
+.ghechandaiprice {
+    font-weight: bold;
+   
+}
+.ghechandaibutton {
+   
+}
+.discover{
+      border: 1px solid black;
+    padding: 10px;
+}
+
+.rightcard {
+  width: 300px;
+  height: 400px;
+   
+  background-image: url("productbg.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.lampimg{
+    width: 200px;
+  height: 200px;
+      
+}
+.hanginglamptittle{
+     
+
+}
+.hanginglampdes{
+    color:grey;
+     
+}
